@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('com.squareup.okhttp3:okhttp:3.9.1')
+    testCompile('au.com.dius:pact-jvm-consumer-junit_2.11:3.5.5')
+}
