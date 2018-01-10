@@ -7,22 +7,6 @@
     },
     "interactions": [
         {
-            "description": "a request for Peter",
-            "request": {
-                "method": "GET",
-                "path": "/hello/Peter"
-            },
-            "response": {
-                "status": 200,
-                "body": "Hello Peter Pan!"
-            },
-            "providerStates": [
-                {
-                    "name": "person data"
-                }
-            ]
-        },
-        {
             "description": "a request for Peter Pan",
             "request": {
                 "method": "GET",
