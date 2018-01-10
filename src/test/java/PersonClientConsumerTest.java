@@ -21,8 +21,8 @@ public class PersonClientConsumerTest {
     public RequestResponsePact createPact(PactDslWithProvider builder) throws IOException {
         return builder
                 .given("person data")
-                .uponReceiving("a request for Peter")
-                .path("/hello/Peter")
+                .uponReceiving("a request for Peter Pan")
+                .path("/hello/Pan")
                 .method("GET")
                 .willRespondWith()
                 .status(200)

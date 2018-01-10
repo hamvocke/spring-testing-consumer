@@ -9,8 +9,8 @@ public class PersonClient {
     public String fetchPerson() throws IOException {
         String personServiceUrl = "http://localhost:8089";
         String endpoint = "/hello";
-        String firstName = "Peter";
-        String url = String.format("%s%s/%s", personServiceUrl, endpoint, firstName);
+        String lastName = "Pan";
+        String url = String.format("%s%s/%s", personServiceUrl, endpoint, lastName);
 
         OkHttpClient client = new OkHttpClient();
 

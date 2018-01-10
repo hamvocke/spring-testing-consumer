@@ -21,6 +21,22 @@
                     "name": "person data"
                 }
             ]
+        },
+        {
+            "description": "a request for Peter Pan",
+            "request": {
+                "method": "GET",
+                "path": "/hello/Pan"
+            },
+            "response": {
+                "status": 200,
+                "body": "Hello Peter Pan!"
+            },
+            "providerStates": [
+                {
+                    "name": "person data"
+                }
+            ]
         }
     ],
     "metadata": {
